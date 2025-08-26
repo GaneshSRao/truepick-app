@@ -1,0 +1,95 @@
+/* Sidenav.css */
+
+.sidenav .collapsible-header {
+  border-radius: 8px;
+  margin: 5px 10px;
+}
+.sidenav li > a {
+  padding-left: 15px !important;
+  border-radius: 8px;
+  margin: 5px 10px;
+}
+
+/* Hover effect for main menu items and collapsible headers */
+.sidenav li > a:hover,
+.sidenav .collapsible-header:hover,
+.collapsible li.active .collapsible-header {
+  background-color: #d0d0d0;
+}
+
+a.active {
+  background: #667eea;
+  color: white !important;
+}
+a.active i {
+  color: white !important;
+}
+a.active:hover {
+  background: #667eea !important;
+}
+
+.collapsible li.active,
+.collapsible ul {
+  background-color: white !important;
+}
+
+.collapsible li.active i.more {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+.collapsible li i.more {
+  margin-right: 10px !important;
+  transition: 0.2s all linear;
+}
+li a i {
+  margin-left: 10px !important;
+}
+.sidenav nav {
+  overflow: hidden;
+  box-shadow: none !important;
+}
+
+#slide-out li a span {
+  overflow: hidden;
+}
+
+/* Styles for nested collapsible items (New Sale, Sales Return, etc.) */
+.collapsible-body ul li a {
+  padding-left: 30px !important;
+  border-radius: 8px;
+  margin: 5px 10px;
+  box-shadow: none;
+}
+
+/* Collapsed state styles */
+#slide-out.collapsed li a span {
+  display: none;
+}
+#slide-out.collapsed nav span.full b {
+  font-size: 0;
+}
+#slide-out.collapsed li ul li ul {
+  display: none;
+}
+#slide-out.collapsed li ul li a i.more {
+  display: none;
+}
+
+#slide-out.collapsed li ul li a.collapsible-header {
+  font-size: 0;
+}
+
+.main-content-area {
+  flex-grow: 1; /* Allows the main content to take up remaining space */
+  /* Default padding for larger screens where sidenav is fixed and visible */
+  padding-left: 300px; /* Adjust this to exactly match your fixed sidenav's width */
+}
+
+/* Media query for smaller screens (Materialize's 'medium and down' breakpoint) */
+@media screen and (max-width: 992px) {
+  .main-content-area {
+    padding-left: 0; /* Remove padding when sidenav is hidden/overlay on mobile */
+  }
+}

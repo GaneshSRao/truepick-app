@@ -1,0 +1,107 @@
+[
+  {
+    "id": "dashboard-section",
+    "type": "section",
+    "label": "Dashboards",
+    "items": [
+      {
+        "id": "#admin_dashboard",
+        "label": "Admin Dashboard",
+        "icon": "dashboard",
+        "path": "admin_dashboard",
+        "type": "link"
+      },
+      {
+        "id": "#user_dashboard",
+        "label": "User Dashboard",
+        "icon": "dashboard",
+        "path": "user_dashboard",
+        "type": "link"
+      }
+    ]
+  },
+  {
+    "id": "profile-section",
+    "type": "section",
+    "label": "Profiles",
+    "items": [
+      {
+        "id": "#profile",
+        "label": "Profile",
+        "icon": "people",
+        "path": "profile",
+        "type": "link"
+      },
+      {
+        "id": "#profile_list",
+        "label": "Explore Profiles",
+        "icon": "people",
+        "path": "profile_list",
+        "type": "link"
+      },
+      {
+        "id": "#profile_form",
+        "label": "Create Profile",
+        "icon": "people",
+        "path": "profile_form",
+        "type": "link"
+      }
+    ]
+  },
+  {
+    "id": "sales-collapsible",
+    "label": "Sales",
+    "icon": "receipt",
+    "type": "collapsible",
+    "items": [
+      {
+        "id": "#billing",
+        "label": "New Sale",
+        "icon": "lens",
+        "iconSize": "tiny",
+        "iconColor": "#bebebe",
+        "path": "billing",
+        "type": "link"
+      },
+      {
+        "id": "#sales_return",
+        "label": "Sales Return",
+        "icon": "lens",
+        "iconSize": "tiny",
+        "iconColor": "#bebebe",
+        "path": "sales_return",
+        "type": "link"
+      },
+      {
+        "id": "#sales_history",
+        "label": "Sales History",
+        "icon": "lens",
+        "iconSize": "tiny",
+        "iconColor": "#bebebe",
+        "path": "sales_history",
+        "type": "link"
+      }
+    ]
+  },
+  {
+    "id": "#user_management",
+    "label": "User Management",
+    "icon": "people",
+    "path": "user",
+    "type": "link"
+  },
+  {
+    "id": "#data_backup",
+    "label": "Data Backup",
+    "icon": "work",
+    "path": "backup",
+    "type": "link"
+  },
+  {
+    "id": "#settings",
+    "label": "Settings",
+    "icon": "settings",
+    "path": "settings",
+    "type": "link"
+  }
+]

@@ -1,0 +1,116 @@
+{
+    "basicInfo": {
+        "fullname" : "Ganesh Rao",
+        "profileId": "MP0012345",
+        "gender": "Female",
+        "dob": "15-05-1992",
+        "age": "33",
+        "email": "jane.doe@example.com",
+        "mobile": "+91 98765 43210",
+        "alternateMobile": "N/A",
+        "profileCreatedBy": "Self",
+        "maritalStatus": "Never Married",
+        "children": "N/A"
+    },
+    "personalInfo": {
+        "religion": "Hindu",
+        "community": "Brahmin",
+        "subCommunity": "Iyengar",
+        "motherTongue": "Tamil",
+        "dietaryHabits": "Vegetarian",
+        "drinkingHabits": "Non-drinker",
+        "smokingHabits": "Non-smoker",
+        "hobbies": [
+            "Reading",
+            "Traveling",
+            "Cooking",
+            "Photography",
+            "Gardening",
+            "Yoga"
+        ],
+        "aboutMe": "I am a warm, ambitious, and family-oriented individual with a passion for learning and exploring new cultures. I enjoy quiet evenings with a good book as much as I love adventurous trips. I believe in living life to the fullest and cherishing every moment."
+    },
+    "professionalInfo": {
+        "highestEducation": "Masters",
+        "educationField": "Computer Science",
+        "college": "Anna University",
+        "occupation": "Software Engineer",
+        "company": "Tech Solutions Inc.",
+        "annualIncome": "18-20 Lakhs INR",
+        "workLocation": "Bengaluru, Karnataka, India"
+    },
+    "familyDetails": {
+        "fatherOccupation": "Retired Government Officer",
+        "motherOccupation": "Homemaker",
+        "numberOfSiblings": "2",
+        "brothers": "1 (Married)",
+        "sisters": "1 (Unmarried)",
+        "familyType": "Nuclear Family",
+        "familyStatus": "Upper Middle Class",
+        "familyValues": "Traditional",
+        "ancestralOrigin": "Chennai, Tamil Nadu"
+    },
+    "locationDetails": {
+        "currentCity": "Bengaluru",
+        "currentState": "Karnataka",
+        "currentCountry": "India",
+        "permanentCity": "Chennai",
+        "permanentState": "Tamil Nadu",
+        "permanentCountry": "India",
+        "citizenship": "Indian"
+    },
+    "physicalAttributes": {
+        "height": "165 cm (5'5\")",
+        "weight": "60 kg",
+        "bodyType": "Average",
+        "complexion": "Wheatish",
+        "physicalStatus": "Normal"
+    },
+    "horoscope": {
+        "star": "Punarvasu",
+        "raasi": "Mithunam (Gemini)",
+        "manglik": "No",
+        "birthTime": "09:30 AM",
+        "birthPlace": "Chennai, Tamil Nadu"
+    },
+    "partnerPreferences": {
+        "ageRange": "30-36",
+        "heightRange": "170 cm - 185 cm",
+        "maritalStatus": "Never Married",
+        "religion": "Hindu",
+        "community": "Brahmin",
+        "motherTongue": "Tamil, Telugu, Kannada",
+        "education": "Masters, Bachelors",
+        "occupation": "Software Engineer, Doctor, Business",
+        "annualIncome": "20 Lakhs+ INR",
+        "dietaryHabits": "Vegetarian, Eggetarian",
+        "drinkingHabits": "Non-drinker, Occasional drinker",
+        "smokingHabits": "Non-smoker",
+        "location": "Bengaluru, Chennai, Hyderabad",
+        "manglik": "No Preference",
+        "aboutPartner": "Seeking a kind, understanding, and ambitious partner who values family and enjoys a balanced lifestyle. Someone with a good sense of humor and a positive outlook on life."
+    },
+    "management": {
+        "profileStatus": "Active",
+        "lastLogin": "2025-07-26 08:00 AM",
+        "profileVisibility": "Visible to all",
+        "photoVisibility": "Visible to accepted interests",
+        "verificationStatus": "Email Verified, Phone Verified",
+        "createdAt": "2024-01-10 10:00 AM",
+        "lastUpdatedAt": "2025-07-25 04:30 PM"
+    },
+    "media": {
+        "profilePictures": [
+            "https://placehold.co/100x100/e0e7ff/4f46e5?text=Pic1",
+            "https://placehold.co/100x100/e0e7ff/4f46e5?text=Pic2",
+            "https://placehold.co/100x100/e0e7ff/4f46e5?text=Pic3"
+        ],
+        "photoAlbum": [
+            "https://placehold.co/100x100/e0e7ff/4f46e5?text=Album1",
+            "https://placehold.co/100x100/e0e7ff/4f46e5?text=Album2",
+            "https://placehold.co/100x100/e0e7ff/4f46e5?text=Album3",
+            "https://placehold.co/100x100/e0e7ff/4f46e5?text=Album4"
+        ],
+        "videoProfile": "N/A"
+    }
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Arjun Patel",
+    "tagline": [
+      "Software Engineer",
+      "Never Married",
+      "Bangalore"
+    ],
+    "info": [
+      "29 Yrs",
+      "Hindu",
+      "Patel",
+      "5'10\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=A1"
+  },
+  {
+    "name": "Meera Joshi",
+    "tagline": [
+      "Chartered Accountant",
+      "Never Married",
+      "Pune"
+    ],
+    "info": [
+      "26 Yrs",
+      "Hindu",
+      "Brahmin",
+      "5'4\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=M1"
+  },
+  {
+    "name": "Vikram Singh",
+    "tagline": [
+      "Government Officer",
+      "Never Married",
+      "Jaipur"
+    ],
+    "info": [
+      "31 Yrs",
+      "Hindu",
+      "Rajput",
+      "5'11\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=V1"
+  },
+  {
+    "name": "Neha Gupta",
+    "tagline": [
+      "Lecturer",
+      "Divorced",
+      "Lucknow"
+    ],
+    "info": [
+      "34 Yrs",
+      "Hindu",
+      "Gupta",
+      "5'5\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=N1"
+  },
+  {
+    "name": "Rohit Kumar",
+    "tagline": [
+      "Bank Manager",
+      "Never Married",
+      "Hyderabad"
+    ],
+    "info": [
+      "33 Yrs",
+      "Hindu",
+      "Yadav",
+      "5'9\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=R1"
+  },
+  {
+    "name": "Sneha Reddy",
+    "tagline": [
+      "Data Scientist",
+      "Never Married",
+      "Chennai"
+    ],
+    "info": [
+      "28 Yrs",
+      "Hindu",
+      "Reddy",
+      "5'6\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=S1"
+  },
+  {
+    "name": "Kunal Sharma",
+    "tagline": [
+      "Product Manager",
+      "Never Married",
+      "Delhi"
+    ],
+    "info": [
+      "30 Yrs",
+      "Hindu",
+      "Brahmin",
+      "5'10\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=K1"
+  },
+  {
+    "name": "Anjali Iyer",
+    "tagline": [
+      "Interior Designer",
+      "Never Married",
+      "Mumbai"
+    ],
+    "info": [
+      "27 Yrs",
+      "Hindu",
+      "Iyer",
+      "5'3\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=A2"
+  },
+  {
+    "name": "Deepak Choudhury",
+    "tagline": [
+      "Civil Engineer",
+      "Divorced",
+      "Kolkata"
+    ],
+    "info": [
+      "36 Yrs",
+      "Hindu",
+      "Choudhury",
+      "6'0\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=D1"
+  },
+  {
+    "name": "Pooja Singh",
+    "tagline": [
+      "Marketing Executive",
+      "Never Married",
+      "Ahmedabad"
+    ],
+    "info": [
+      "25 Yrs",
+      "Hindu",
+      "Thakur",
+      "5'7\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=P10"
+  },
+  {
+    "name": "Gaurav Verma",
+    "tagline": [
+      "Doctor",
+      "Never Married",
+      "Indore"
+    ],
+    "info": [
+      "31 Yrs",
+      "Hindu",
+      "Kayastha",
+      "5'9\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=G1"
+  },
+  {
+    "name": "Divya Rao",
+    "tagline": [
+      "Artist",
+      "Never Married",
+      "Bangalore"
+    ],
+    "info": [
+      "29 Yrs",
+      "Hindu",
+      "Brahmin",
+      "5'4\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=D2"
+  },
+  {
+    "name": "Harish Menon",
+    "tagline": [
+      "Pilot",
+      "Never Married",
+      "Mumbai"
+    ],
+    "info": [
+      "32 Yrs",
+      "Hindu",
+      "Menon",
+      "5'11\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=H1"
+  },
+  {
+    "name": "Ritu Desai",
+    "tagline": [
+      "Human Resources",
+      "Divorced",
+      "Pune"
+    ],
+    "info": [
+      "35 Yrs",
+      "Hindu",
+      "Desai",
+      "5'6\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=R2"
+  },
+  {
+    "name": "Siddharth Jain",
+    "tagline": [
+      "Businessman",
+      "Never Married",
+      "Delhi"
+    ],
+    "info": [
+      "28 Yrs",
+      "Hindu",
+      "Jain",
+      "5'10\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=S2"
+  },
+  {
+    "name": "Sonam Kapoor",
+    "tagline": [
+      "Fashion Designer",
+      "Never Married",
+      "Hyderabad"
+    ],
+    "info": [
+      "27 Yrs",
+      "Hindu",
+      "Kapoor",
+      "5'4\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=S3"
+  },
+  {
+    "name": "Rajesh Nair",
+    "tagline": [
+      "Architect",
+      "Never Married",
+      "Kochi"
+    ],
+    "info": [
+      "30 Yrs",
+      "Hindu",
+      "Nair",
+      "5'9\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=R3"
+  },
+  {
+    "name": "Kavita Shah",
+    "tagline": [
+      "Software Developer",
+      "Never Married",
+      "Ahmedabad"
+    ],
+    "info": [
+      "26 Yrs",
+      "Hindu",
+      "Shah",
+      "5'5\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=K2"
+  },
+  {
+    "name": "Anil Soni",
+    "tagline": [
+      "Teacher",
+      "Divorced",
+      "Bhopal"
+    ],
+    "info": [
+      "38 Yrs",
+      "Hindu",
+      "Soni",
+      "5'8\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=A3"
+  },
+  {
+    "name": "Lata Agarwal",
+    "tagline": [
+      "Business Analyst",
+      "Never Married",
+      "Noida"
+    ],
+    "info": [
+      "29 Yrs",
+      "Hindu",
+      "Agarwal",
+      "5'3\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=L1"
+  }
+]

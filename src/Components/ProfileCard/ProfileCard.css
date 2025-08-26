@@ -1,0 +1,87 @@
+.profile-card {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Materialize-like shadow */
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            display: flex;
+            flex-direction: column; /* Stack content vertically */
+            align-items: center; /* Center content horizontally */
+            text-align: center; /* Center text within the card */
+            box-sizing: border-box; /* Include padding in height calculation */
+            overflow: hidden; /* Clip content if it exceeds fixed height */
+        }
+        .profile-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+        .profile-card-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid transparent; /* Make border transparent for gradient */
+            background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Apply gradient as background */
+            background-origin: border-box; /* Apply gradient to border-box */
+            background-clip: content-box, border-box; /* Clip background to content-box, and border-box for gradient */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 1rem;
+            flex-shrink: 0; /* Prevent image from shrinking */
+        }
+        .profile-text-content { /* Container for text content */
+            width: 100%; /* Take full width of the card */
+            box-sizing: border-box; /* Include padding in height calculation */
+            text-align: center; /* Center text within this content area */
+        }
+        .profile-card-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #4a5568;
+            margin-top: 0;
+            margin-bottom: 0.25rem;
+        }
+        .profile-card-tagline-item { /* New style for individual tagline lines */
+            font-size: 0.9rem;
+            color: #718096;
+            margin-top: 0;
+            margin-bottom: 0; /* Remove default paragraph margins */
+            line-height: 1.2;
+        }
+        .profile-card-tagline-item:last-of-type {
+            margin-bottom: 1rem; /* Add margin below the last tagline item */
+        }
+        .profile-card-info {
+            display: flex;
+            justify-content: center; /* Center info items */
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0;
+            margin-bottom: 1rem; /* Added margin-bottom for a line space below chips */
+        }
+        .profile-card-info-item {
+            background-color: #e0e7ff; /* Light indigo */
+            color: #4f46e5; /* Darker indigo */
+            padding: 0.25rem 0.75rem;
+            border-radius: 16px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        .view-profile-btn {
+            background-color: #667eea; /* Single color */
+            color: #ffffff;
+            padding: 0.6rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0; /* Prevent button from shrinking */
+        }
+        .view-profile-btn:hover {
+            background-color: #764ba2; /* Darker shade on hover */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }

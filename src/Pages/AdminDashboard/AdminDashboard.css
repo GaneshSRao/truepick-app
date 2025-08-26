@@ -1,0 +1,222 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5; /* Lighter grey background */
+    color: #333;
+}
+.container-wrapper {
+    margin: 0 auto;
+    padding: 25px;
+}
+.profile-section { /* Reused for dashboard cards */
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Materialize-like shadow */
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.profile-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4a5568;
+    margin-bottom: 1rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #667eea;
+    border-radius: 2px;
+}
+
+/* Dashboard Specific Styles */
+.metric-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    min-height: 150px; /* Ensure consistent height for metric cards */
+}
+.metric-card .icon-large {
+    font-size: 3rem;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+.metric-card .metric-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4a5568;
+    line-height: 1;
+}
+.metric-card .metric-label {
+    font-size: 1rem;
+    color: #718096;
+    margin-top: 0.25rem;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+.activity-item:last-child {
+    border-bottom: none;
+}
+.activity-item i.material-icons {
+    font-size: 1.5rem;
+    color: #667eea;
+    margin-right: 1rem;
+}
+.activity-item .activity-text {
+    flex-grow: 1;
+    color: #2d3748;
+}
+.activity-item .activity-time {
+    font-size: 0.8rem;
+    color: #718096;
+}
+
+.dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.dashboard-table th, .dashboard-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+.dashboard-table th {
+    background-color: #f8f9fa;
+    color: #4a5568; /* Table header text color */
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+/* Added rule to explicitly set table cell text color */
+.dashboard-table td {
+    color: #2d3748; /* Dark grey for table body text */
+}
+.dashboard-table tbody tr:hover {
+    background-color: #f0f4f8;
+}
+.dashboard-table .status-chip {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 16px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.dashboard-table .status-chip.active {
+    background-color: #d4edda;
+    color: #155724;
+}
+.dashboard-table .status-chip.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+.dashboard-table .status-chip.rejected {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.dashboard-table .action-btn {
+    background-color: #667eea;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: background-color 0.2s ease;
+}
+.dashboard-table .action-btn:hover {
+    background-color: #764ba2;
+}
+
+.quick-action-btn {
+    background-color: #667eea;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    height: 100%; /* Ensure consistent height */
+    width:100%;
+    
+}
+.quick-action-btn:hover {
+    background-color: #764ba2;
+    transform: translateY(-2px);
+}
+.quick-action-btn i.material-icons {
+    font-size: 2.5rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.chart-placeholder {
+    min-height: 250px;
+    background-color: #f8f9fa;
+    border: 1px dashed #e2e8f0;
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #718096;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* Materialize grid adjustments for responsiveness */
+.row .col {
+    padding: 0.75rem; /* Adjust padding for grid columns */
+}
+
+.main-wrapper {
+    display: block;
+    padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .main-wrapper {
+        padding-top: 1rem;
+    }
+    .container-wrapper {
+        padding: 0.5rem;
+    }
+    .dashboard-title {
+        font-size: 2rem;
+    }
+    .dashboard-subtitle {
+        font-size: 1rem;
+    }
+    .metric-card {
+        min-height: 120px;
+    }
+    .metric-card .metric-value {
+        font-size: 2rem;
+    }
+    .metric-card .icon-large {
+        font-size: 2.5rem;
+    }
+}
