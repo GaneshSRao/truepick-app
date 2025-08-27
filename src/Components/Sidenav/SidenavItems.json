@@ -1,8 +1,9 @@
 [
   {
-    "id": "dashboard-section",
-    "type": "section",
-    "label": "Dashboards",
+    "id": "admin-section",
+    "type": "collapsible",
+    "label": "Admin",
+    "icon" : "dashboard",
     "items": [
       {
         "id": "#admin_dashboard",
@@ -12,96 +13,114 @@
         "type": "link"
       },
       {
-        "id": "#user_dashboard",
-        "label": "User Dashboard",
-        "icon": "dashboard",
-        "path": "user_dashboard",
-        "type": "link"
-      }
-    ]
-  },
-  {
-    "id": "profile-section",
-    "type": "section",
-    "label": "Profiles",
-    "items": [
-      {
-        "id": "#profile",
-        "label": "Profile",
-        "icon": "people",
-        "path": "profile",
-        "type": "link"
-      },
-      {
-        "id": "#profile_list",
-        "label": "Explore Profiles",
-        "icon": "people",
-        "path": "profile_list",
-        "type": "link"
-      },
-      {
         "id": "#profile_form",
         "label": "Create Profile",
-        "icon": "people",
+        "icon": "person_add",
         "path": "profile_form",
         "type": "link"
       }
     ]
   },
   {
-    "id": "sales-collapsible",
-    "label": "Sales",
-    "icon": "receipt",
-    "type": "collapsible",
+    "id": "account-section",
+    "type": "section",
+    "icon": "people",
+    "label": "Account",
     "items": [
       {
-        "id": "#billing",
-        "label": "New Sale",
-        "icon": "lens",
-        "iconSize": "tiny",
-        "iconColor": "#bebebe",
-        "path": "billing",
+        "id": "#user_dashboard",
+        "label": "My Dashboard",
+        "icon": "dashboard",
+        "path": "user_dashboard",
         "type": "link"
       },
       {
-        "id": "#sales_return",
-        "label": "Sales Return",
-        "icon": "lens",
-        "iconSize": "tiny",
-        "iconColor": "#bebebe",
-        "path": "sales_return",
+        "id": "#profile",
+        "label": "My Profile",
+        "icon": "account_circle",
+        "path": "profile",
         "type": "link"
       },
       {
-        "id": "#sales_history",
-        "label": "Sales History",
-        "icon": "lens",
-        "iconSize": "tiny",
-        "iconColor": "#bebebe",
-        "path": "sales_history",
+        "id": "#data_backup",
+        "label": "Membership",
+        "icon": "stars",
+        "path": "backup",
+        "type": "link"
+      },
+      {
+        "id": "#settings",
+        "label": "Settings",
+        "icon": "settings",
+        "path": "settings",
         "type": "link"
       }
     ]
   },
   {
-    "id": "#user_management",
-    "label": "User Management",
+    "id": "discovery-section",
+    "type": "section",
     "icon": "people",
-    "path": "user",
-    "type": "link"
+    "label": "Discovery",
+    "items": [
+      {
+        "id": "#matches",
+        "label": "Matches",
+        "icon": "favorite",
+        "path": "profile_list",
+        "type": "link"
+      },
+      {
+        "id": "#search",
+        "label": "Search",
+        "icon": "search",
+        "path": "search",
+        "type": "link"
+      },
+      {
+        "id": "#recommended",
+        "label": "Recommended",
+        "icon": "assignment",
+        "path": "recommended",
+        "type": "link"
+      },
+      {
+        "id": "#shortlisted",
+        "label": "Shortlisted Profiles",
+        "icon": "turned_in",
+        "path": "shortlist",
+        "type": "link"
+      }
+      
+    ]
   },
   {
-    "id": "#data_backup",
-    "label": "Data Backup",
-    "icon": "work",
-    "path": "backup",
-    "type": "link"
-  },
-  {
-    "id": "#settings",
-    "label": "Settings",
-    "icon": "settings",
-    "path": "settings",
-    "type": "link"
+    "id": "more-section",
+    "type": "section",
+    "icon": "people",
+    "label": "More",
+    "items": [
+      {
+        "id": "#success_stories",
+        "label": "Success Stories",
+        "icon": "star_border",
+        "path": "success_stories",
+        "type": "link"
+      },
+      {
+        "id": "#help",
+        "label": "Help & Support",
+        "icon": "help",
+        "path": "help",
+        "type": "link"
+      },
+      {
+        "id": "#logout",
+        "label": "Log out",
+        "icon": "exit_to_app",
+        "path": "logout",
+        "type": "link"
+      }
+    ]
   }
 ]

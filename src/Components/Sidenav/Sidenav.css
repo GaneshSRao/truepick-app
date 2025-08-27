@@ -4,6 +4,13 @@
   border-radius: 8px;
   margin: 5px 10px;
 }
+.sidebar-section-header{
+  color: grey;
+  text-transform: uppercase;
+  padding-left: 25px !important;
+  margin: 5px 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
 .sidenav li > a {
   padding-left: 15px !important;
   border-radius: 8px;

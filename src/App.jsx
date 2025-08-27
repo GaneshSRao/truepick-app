@@ -33,7 +33,7 @@ function App() {
         <main className="grey lighten-2 main-content-area p-4"> 
           <Routes>
             {/* ... your routes ... */}
-            <Route path="/" element={<DashboardPage />} />
+            <Route path="/" element={<ProfilePage />} />
             <Route path="/admin_dashboard" element={<DashboardPage />} />
             <Route path="/user_dashboard" element={<UserDashbaord />} />
             <Route path="/billing" element={<div>Billing Page Content</div>} />

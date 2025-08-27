@@ -150,9 +150,23 @@ const Sidenav = () => {
         </div>
       </nav>
 
-      {sidebarItems.map((item) => {
+      {/* {sidebarItems.map((item) => {
         if (item.type === 'section') {
             return item.items.map(subItem => renderSidebarItem(subItem));
+        }
+        return renderSidebarItem(item);
+      })} */}
+      {sidebarItems.map((item) => {
+        // Renders a section header and a horizontal rule for "section" types.
+        if (item.type === 'section') {
+          return (
+            <React.Fragment key={item.id}>
+              <li className="sidebar-section-header">
+                <h6>{item.label}</h6>
+              </li>
+              {item.items.map(subItem => renderSidebarItem(subItem))}
+            </React.Fragment>
+          );
         }
         return renderSidebarItem(item);
       })}
