@@ -7,6 +7,10 @@ import UserDashbaord from './Pages/UserDashboard/UserDashboard';
 import ProfilePage from './Pages/Profile/Profile';
 import ProfileList from './Pages/ProfileList/ProfileList';
 import ProfileForm from './Pages/ProfileForm/ProfileForm';
+import UserManagement from './Pages/UserManagement/UserManagement';
+import Inbox from './Pages/Inbox/Inbox';
+import Testimonials from './Pages/Testimonials/Testimonials';
+import Membership from './Pages/Membership/Membership';
 
 // Import Materialize CSS and JS
 import 'materialize-css/dist/css/materialize.min.css';
@@ -36,14 +40,19 @@ function App() {
             <Route path="/" element={<ProfilePage />} />
             <Route path="/admin_dashboard" element={<DashboardPage />} />
             <Route path="/user_dashboard" element={<UserDashbaord />} />
-            <Route path="/billing" element={<div>Billing Page Content</div>} />
-            <Route path="/sales_return" element={<div>Sales Return Page Content</div>} />
-            <Route path="/sales_history" element={<div>Sales History Page Content</div>} />
+            <Route path="/membership" element={<Membership />} />
+            <Route path="/search" element={<div>Search Page Content</div>} />
+            <Route path="/recommended" element={<div>Recommended Page Content</div>} />
+            <Route path="/shortlist" element={<div>Shortlist Page Content</div>} />
+            <Route path="/sent_interest" element={<div>Sent Interest Page Content</div>} />
+            <Route path="/received_interest" element={<div>Received Interest Page Content</div>} />
+            <Route path="/help" element={<div>Help Page Content</div>} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/profile_list" element={<ProfileList />} />
             <Route path="/profile_form" element={<ProfileForm />} />
-            <Route path="/user" element={<div>User Management Page Content</div>} />
-            <Route path="/data_backup" element={<div>Data Backup Page Content</div>} />
+            <Route path="/users" element={<UserManagement />} />
+            <Route path="/inbox" element={<Inbox />} />
+             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/settings" element={<div>Settings Page Content</div>} />
           </Routes>
         </main>

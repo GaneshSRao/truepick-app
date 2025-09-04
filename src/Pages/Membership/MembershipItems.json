@@ -1,0 +1,54 @@
+[
+  {
+    "id": "plan-1",
+    "name": "Standard",
+    "price": "Free",
+    "period": "forever",
+    "features": [
+      "Access to public profiles",
+      "Send up to 3 messages/day",
+      "Receive basic matches",
+      "Limited profile visibility"
+    ]
+  },
+  {
+    "id": "plan-4",
+    "name": "Silver",
+    "price": "₹200",
+    "period": "per month",
+    "features": [
+      "Access to all profiles",
+      "Send up to 50 messages/day",
+      "View up to 5 contact numbers/day",
+      "Standard profile visibility"
+    ]
+  },
+  {
+    "id": "plan-2",
+    "name": "Gold",
+    "price": "₹500",
+    "period": "per month",
+    "features": [
+      "Everything in Silver",
+      "Send unlimited messages",
+      "View unlimited contact numbers",
+      "Gold profile badge",
+      "Priority customer support",
+      "Detailed profile analytics"
+    ]
+  },
+  {
+    "id": "plan-3",
+    "name": "Platinum",
+    "price": "₹1000",
+    "period": "per month",
+    "features": [
+      "Everything in Gold",
+      "Profile featured on homepage",
+      "Verified profile badge",
+      "Personalized matchmaker assistance",
+      "Receive daily curated matches",
+      "Free profile boost every week"
+    ]
+  }
+]

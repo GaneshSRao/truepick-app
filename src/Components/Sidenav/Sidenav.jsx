@@ -162,7 +162,7 @@ const Sidenav = () => {
           return (
             <React.Fragment key={item.id}>
               <li className="sidebar-section-header">
-                <h6>{item.label}</h6>
+                <span>{item.label}</span>
               </li>
               {item.items.map(subItem => renderSidebarItem(subItem))}
             </React.Fragment>

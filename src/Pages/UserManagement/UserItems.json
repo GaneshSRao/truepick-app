@@ -1,0 +1,42 @@
+[
+  {
+    "id": "USR001",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "gender": "Male",
+    "status": "active",
+    "lastLogin": "2025-07-28"
+  },
+  {
+    "id": "USR002",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "gender": "Female",
+    "status": "pending",
+    "lastLogin": "N/A"
+  },
+  {
+    "id": "USR003",
+    "name": "Ravi Sharma",
+    "email": "ravi.s@example.com",
+    "gender": "Male",
+    "status": "active",
+    "lastLogin": "2025-07-27"
+  },
+  {
+    "id": "USR004",
+    "name": "Priya Singh",
+    "email": "priya.s@example.com",
+    "gender": "Female",
+    "status": "disabled",
+    "lastLogin": "2025-07-20"
+  },
+  {
+    "id": "USR005",
+    "name": "Amit Patel",
+    "email": "amit.p@example.com",
+    "gender": "Male",
+    "status": "active",
+    "lastLogin": "2025-07-29"
+  }
+]

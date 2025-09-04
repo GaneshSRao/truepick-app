@@ -1,0 +1,50 @@
+[
+  {
+    "id": "story-1",
+    "coupleNames": "Priya & Rohan",
+    "headline": "Found my forever partner!",
+    "story": "I was skeptical at first, but after a few months on the platform, I connected with Rohan. We instantly clicked and our families got along great. We are now happily married and all thanks to this platform. Thank you for helping us find each other!",
+    "image": "https://placehold.co/100x100/764ba2/ffffff?text=PR",
+    "date": "Married 3 months ago"
+  },
+  {
+    "id": "story-2",
+    "coupleNames": "Amit & Neha",
+    "headline": "A perfect match for life",
+    "story": "We met on this site and it was the best decision of our lives. We have so much in common and our families share similar values. The detailed profiles really helped us get to know each other. Highly recommended!",
+    "image": "https://placehold.co/100x100/764ba2/ffffff?text=AN",
+    "date": "Married 6 months ago"
+  },
+  {
+    "id": "story-3",
+    "coupleNames": "Sana & Imran",
+    "headline": "Connected beyond borders",
+    "story": "I never thought I would find my soulmate living so far away. The platform's global reach and excellent communication features made it possible. Our story is proof that true love knows no boundaries.",
+    "image": "https://placehold.co/100x100/764ba2/ffffff?text=SI",
+    "date": "Married 1 year ago"
+  },
+  {
+    "id": "story-4",
+    "coupleNames": "Meera & Vikram",
+    "headline": "A love story a year in the making",
+    "story": "It was a journey, but a rewarding one. The filters helped me narrow down my search to what was truly important. When I met Vikram, I knew he was the one. Thank you for connecting us!",
+    "image": "https://placehold.co/100x100/764ba2/ffffff?text=MV",
+    "date": "Engaged 2 months ago"
+  },
+  {
+    "id": "story-5",
+    "coupleNames": "Anjali & Karthik",
+    "headline": "From a click to a lifetime",
+    "story": "We are so grateful for this platform. The experience was seamless, and the verified profiles gave us peace of mind. We are so excited to start our new life together.",
+    "image": "https://placehold.co/100x100/764ba2/ffffff?text=AK",
+    "date": "Married last month"
+  },
+  {
+    "id": "story-6",
+    "coupleNames": "Riya & Arjun",
+    "headline": "A match made in heaven",
+    "story": "My parents found Arjun's profile and we decided to connect. It was a perfect match. The site made the whole process easy and stress-free. We couldn't be happier!",
+    "image": "https://placehold.co/100x100/764ba2/ffffff?text=RA",
+    "date": "Married 8 months ago"
+  }
+]

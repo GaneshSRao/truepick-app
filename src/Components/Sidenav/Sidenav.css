@@ -10,11 +10,16 @@
   padding-left: 25px !important;
   margin: 5px 10px;
   border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
 }
 .sidenav li > a {
   padding-left: 15px !important;
   border-radius: 8px;
   margin: 5px 10px;
+}
+
+.sidenav::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
 }
 
 /* Hover effect for main menu items and collapsible headers */

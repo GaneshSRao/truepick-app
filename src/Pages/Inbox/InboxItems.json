@@ -1,0 +1,38 @@
+[
+  {
+    "id": "msg-1",
+    "senderName": "Sita Kumari",
+    "subject": "Match Request - ID: USR005",
+    "body": "Hello, I'm interested in your profile and would like to connect. Please let me know if you would be open to a conversation. Thank you!",
+    "senderAvatar": "https://placehold.co/100x100/764ba2/ffffff?text=S1",
+    "date": "2m ago",
+    "unread": true
+  },
+  {
+    "id": "msg-2",
+    "senderName": "Ramesh Gupta",
+    "subject": "Re: Regarding your profile details",
+    "body": "Thank you for the quick response! I've updated my profile as you suggested. I look forward to hearing from you soon.",
+    "senderAvatar": "https://placehold.co/100x100/764ba2/ffffff?text=R1",
+    "date": "1d ago",
+    "unread": false
+  },
+  {
+    "id": "msg-3",
+    "senderName": "Admin Support",
+    "subject": "Your new feature request has been processed",
+    "body": "Hello, we have successfully added the 'Family Background' section to your profile. You can now update your details in the settings.",
+    "senderAvatar": "https://placehold.co/100x100/764ba2/ffffff?text=A",
+    "date": "2d ago",
+    "unread": false
+  },
+  {
+    "id": "msg-4",
+    "senderName": "Arjun Reddy",
+    "subject": "A question about subscription plans",
+    "body": "I'm having trouble with my payment for the premium subscription. Could you please assist me? My transaction ID is #P09876.",
+    "senderAvatar": "https://placehold.co/100x100/764ba2/ffffff?text=A1",
+    "date": "4d ago",
+    "unread": false
+  }
+]

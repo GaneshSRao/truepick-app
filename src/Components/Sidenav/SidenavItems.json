@@ -3,20 +3,33 @@
     "id": "admin-section",
     "type": "collapsible",
     "label": "Admin",
-    "icon" : "dashboard",
+    "icon" : "font_download",
     "items": [
       {
         "id": "#admin_dashboard",
         "label": "Admin Dashboard",
-        "icon": "dashboard",
+        "icon": "lens",
+        "iconSize": "tiny",
+        "iconColor": "#bebebe",
         "path": "admin_dashboard",
         "type": "link"
       },
       {
         "id": "#profile_form",
         "label": "Create Profile",
-        "icon": "person_add",
+        "icon": "lens",
+        "iconSize": "tiny",
+        "iconColor": "#bebebe",
         "path": "profile_form",
+        "type": "link"
+      },
+      {
+        "id": "#user_management",
+        "label": "User Management",
+        "icon": "lens",
+        "iconSize": "tiny",
+        "iconColor": "#bebebe",
+        "path": "users",
         "type": "link"
       }
     ]
@@ -45,7 +58,7 @@
         "id": "#data_backup",
         "label": "Membership",
         "icon": "stars",
-        "path": "backup",
+        "path": "membership",
         "type": "link"
       },
       {
@@ -83,6 +96,35 @@
         "icon": "assignment",
         "path": "recommended",
         "type": "link"
+      }
+    ]
+  },
+  {
+    "id": "interactions-section",
+    "type": "section",
+    "icon": "people",
+    "label": "Interactions",
+    "items": [
+      {
+        "id": "#inbox",
+        "label": "Inbox",
+        "icon": "inbox",
+        "path": "inbox",
+        "type": "link"
+      },
+      {
+        "id": "#sent_interest",
+        "label": "Sent Interest",
+        "icon": "send",
+        "path": "sent_interest",
+        "type": "link"
+      },
+      {
+        "id": "#received_interest",
+        "label": "Received Interest",
+        "icon": "notifications",
+        "path": "received_interest",
+        "type": "link"
       },
       {
         "id": "#shortlisted",
@@ -104,7 +146,7 @@
         "id": "#success_stories",
         "label": "Success Stories",
         "icon": "star_border",
-        "path": "success_stories",
+        "path": "testimonials",
         "type": "link"
       },
       {
@@ -116,7 +158,7 @@
       },
       {
         "id": "#logout",
-        "label": "Log out",
+        "label": "Log Out",
         "icon": "exit_to_app",
         "path": "logout",
         "type": "link"
