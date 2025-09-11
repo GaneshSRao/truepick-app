@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Vikram Singh",
+    "tagline": [
+      "Government Officer",
+      "Never Married",
+      "Jaipur"
+    ],
+    "info": [
+      "31 Yrs",
+      "Hindu",
+      "Rajput",
+      "5'11\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=V1"
+  },
+  {
+    "name": "Neha Gupta",
+    "tagline": [
+      "Lecturer",
+      "Divorced",
+      "Lucknow"
+    ],
+    "info": [
+      "34 Yrs",
+      "Hindu",
+      "Gupta",
+      "5'5\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=N1"
+  },
+  {
+    "name": "Rohit Kumar",
+    "tagline": [
+      "Bank Manager",
+      "Never Married",
+      "Hyderabad"
+    ],
+    "info": [
+      "33 Yrs",
+      "Hindu",
+      "Yadav",
+      "5'9\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=R1"
+  },
+  {
+    "name": "Meera Joshi",
+    "tagline": [
+      "Chartered Accountant",
+      "Never Married",
+      "Pune"
+    ],
+    "info": [
+      "26 Yrs",
+      "Hindu",
+      "Brahmin",
+      "5'4\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=M1"
+  }
+]

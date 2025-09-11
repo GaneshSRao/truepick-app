@@ -1,13 +1,13 @@
 import React from 'react';
-import './ProfileList.css'; // Assuming you save the CSS in a file named Profiles.css
-import ProfileListItems from './ProfileListItems.json';
+import './Shortlisted.css'; // Assuming you save the CSS in a file named Profiles.css
+import ShortlistedItems from './ShortlistedItems.json';
 import Hero from '../../Components/Hero/Hero';
 import ProfileCard from '../../Components/ProfileCard/ProfileCard';
 
-const ProfileList = () => {
+const Shortlisted = () => {
     const heroData = {
-        name: "Explore Profiles",
-        tagline: "Let's get your match."
+        name: "Shortlisted",
+        tagline: "Here are the profiles that you have shortlisted."
     };
     return(
     <div className="main-wrapper">
@@ -16,7 +16,7 @@ const ProfileList = () => {
             {/* Hero Section */}
             <Hero {...heroData} />
 
-            {ProfileListItems.map((profile, index) => (
+            {ShortlistedItems.map((profile, index) => (
             <ProfileCard key={index} profile={profile} showViewProfileButton={true} />
             ))}
         </div>
@@ -25,4 +25,4 @@ const ProfileList = () => {
     );
 };
 
-export default ProfileList;
+export default Shortlisted;

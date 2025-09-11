@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Inbox.css';
 import messagesData from './InboxItems.json';
+import Hero from '../../Components/Hero/Hero';
 
 const Inbox = () => {
   const [activeMessage, setActiveMessage] = useState(null);
@@ -15,16 +16,17 @@ const Inbox = () => {
     setActiveMessage(null);
   };
 
+  const heroData = {
+        name: "Inbox",
+        tagline: "Manage messages from user to user and admin."
+    };
+
   return (
     <div className="main-wrapper">
       <div className="container-wrapper">
         <div className="row">
           {/* Page Header */}
-          <div className="hero-section center">
-            <h1 className="page-title">Inbox</h1>
-            <p className="page-subtitle">Manage messages from user to user and admin.</p>
-          </div>
-
+          <Hero {...heroData} />
           {/* Inbox Actions & Filters */}
           <div className="col s12">
             <div className="action-buttons-container">

@@ -1,9 +1,4 @@
 /* MatrimonialProfile.css */
-
-.container-wrapper {
-    margin: 0 auto;
-    padding: 25px;
-}
 .profile-section {
     background-color: #ffffff;
     border-radius: 1rem;
@@ -15,63 +10,6 @@
 .profile-section:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-}
-.hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #ffffff;
-    padding: 2.5rem 1.5rem;
-    border-radius: 1rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-.hero-section::before, .hero-section::after {
-    content: '';
-    position: absolute;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    z-index: 0;
-}
-.hero-section::before {
-    top: -50px;
-    left: -50px;
-    width: 200px;
-    height: 200px;
-    transform: rotate(45deg);
-}
-.hero-section::after {
-    bottom: -50px;
-    right: -50px;
-    width: 150px;
-    height: 150px;
-    transform: rotate(-30deg);
-}
-.profile-img-hero {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid rgba(255, 255, 255, 0.8);
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
-    margin: 0 auto 1rem auto;
-    display: block;
-    position: relative;
-    z-index: 1;
-}
-.profile-name {
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin-bottom: 0.25rem;
-    position: relative;
-    z-index: 1;
-}
-.profile-tagline {
-    font-size: 1.1rem;
-    font-weight: 500;
-    opacity: 0.9;
-    position: relative;
-    z-index: 1;
 }
 .section-title {
     font-size: 1.5rem;

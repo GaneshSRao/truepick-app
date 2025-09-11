@@ -9,17 +9,17 @@ const Hero = ({ profileImg, name, tagline }) => {
         return (
             <div className="hero-section center">
                 <p className="profile-space"></p>
-                <h1 className="profile-name">{name}</h1>
-                <p className="profile-tagline">{tagline}</p>
+                <h1 className="hero-name">{name}</h1>
+                <p className="hero-tagline">{tagline}</p>
             </div>
         );
     }
 
     return (
         <div className="hero-section center">
-            <img src={profileImg} alt="Profile Picture" className="profile-img-hero" />
-            <h1 className="profile-name">{name}</h1>
-            <p className="profile-tagline">{tagline}</p>
+            <img src={profileImg} alt="Profile Picture" className="hero-img-hero" />
+            <h1 className="hero-name">{name}</h1>
+            <p className="hero-tagline">{tagline}</p>
         </div>
     );
 };

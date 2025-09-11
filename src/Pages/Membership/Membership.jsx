@@ -1,22 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import plans from './MembershipItems.json'; // Import the JSON data
 import './Membership.css'; // Import the CSS file
+import Hero from '../../Components/Hero/Hero';
 
 const mockUserData = {
   currentPlan: 'Gold',
   endDate: '2025-10-15T23:59:59Z',
 };
 
-const HeroSection = ({ userData }) => (
-  <div className="hero-section center">
-    <h1 className="page-title">Membership Plans</h1>
-    {userData && (
-      <div className="page-subtitle">
-        Your Current Plan: <span>{userData.currentPlan}</span> | Expires on: <span>{new Date(userData.endDate).toLocaleDateString()}</span>
-      </div>
-    )}
-  </div>
-);
+const heroData = {
+        name: "Membership Plans",
+        tagline: "Your Current Plan:" +  mockUserData.currentPlan + "| Expires on: "+ new Date(mockUserData.endDate).toLocaleDateString()
+    };
 
 const PlanCard = ({ plan, isCurrent }) => (
   <div className={`plan-card ${isCurrent ? 'is-current' : ''}`}>
@@ -49,7 +44,7 @@ const App = () => {
     <div className="main-wrapper">
       <div className="container-wrapper">
         <div className="row">
-          <HeroSection userData={userData} />
+          <Hero {...heroData} />
           <div className="col s12">
             <div className="membership-card-container">
               <h2 className="section-title">Pricing</h2>

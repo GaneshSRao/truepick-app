@@ -11,11 +11,16 @@ import UserManagement from './Pages/UserManagement/UserManagement';
 import Inbox from './Pages/Inbox/Inbox';
 import Testimonials from './Pages/Testimonials/Testimonials';
 import Membership from './Pages/Membership/Membership';
+import SentInterest from './Pages/SentInterest/SentInterest';
+import ReceivedInterest from './Pages/ReceivedInterest/ReceivedInterest';
+import Shortlisted from './Pages/Shortlisted/Shortlisted';
 
 // Import Materialize CSS and JS
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js';
 import 'material-icons/iconfont/material-icons.css';
+
+import './App.css';
 
 
 function App() {
@@ -43,9 +48,9 @@ function App() {
             <Route path="/membership" element={<Membership />} />
             <Route path="/search" element={<div>Search Page Content</div>} />
             <Route path="/recommended" element={<div>Recommended Page Content</div>} />
-            <Route path="/shortlist" element={<div>Shortlist Page Content</div>} />
-            <Route path="/sent_interest" element={<div>Sent Interest Page Content</div>} />
-            <Route path="/received_interest" element={<div>Received Interest Page Content</div>} />
+            <Route path="/shortlist" element={<Shortlisted />} />
+            <Route path="/sent_interest" element={<SentInterest />} />
+            <Route path="/received_interest" element={<ReceivedInterest />} />
             <Route path="/help" element={<div>Help Page Content</div>} />
             <Route path="/profile" element={<ProfilePage />} />
             <Route path="/profile_list" element={<ProfileList />} />

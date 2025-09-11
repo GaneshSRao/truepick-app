@@ -1,14 +1,13 @@
 import React from 'react';
 import './Testimonials.css';
 import testimonialsData from './TestimonialsItems.json';
+import Hero from '../../Components/Hero/Hero';
 
 const Testimonials = () => {
-  const HeroSection = () => (
-    <div className="hero-section center">
-      <h1 className="page-title">Our Success Stories</h1>
-      <p className="page-subtitle">Read about couples who found their perfect match.</p>
-    </div>
-  );
+  const heroData = {
+        name: "Our Success Stories",
+        tagline: "Read about couples who found their perfect match."
+    };
 
   const ActionButtons = () => (
     <div className="col s12">
@@ -38,7 +37,7 @@ const Testimonials = () => {
     <div className="main-wrapper">
       <div className="container-wrapper">
         <div className="row">
-          <HeroSection />
+           <Hero {...heroData} />
           <ActionButtons />
           <div className="col s12 no-padding">
             <div className="testimonials-card-container">

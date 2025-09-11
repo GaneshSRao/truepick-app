@@ -1,12 +1,4 @@
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #f0f2f5; /* Lighter grey background */
-    color: #333;
-}
-.container-wrapper {
-    margin: 0 auto;
-    padding: 25px;
-}
+
 .profile-section { /* Reused for main content cards */
     background-color: #ffffff;
     border-radius: 1rem;
@@ -19,37 +11,7 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
-.hero-section { /* Reused for page header */
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: #ffffff;
-    padding: 2.5rem 1.5rem;
-    border-radius: 1rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-.hero-section::before, .hero-section::after {
-    content: '';
-    position: absolute;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    z-index: 0;
-}
-.hero-section::before {
-    top: -50px;
-    left: -50px;
-    width: 200px;
-    height: 200px;
-    transform: rotate(45deg);
-}
-.hero-section::after {
-    bottom: -50px;
-    right: -50px;
-    width: 150px;
-    height: 150px;
-    transform: rotate(-30deg);
-}
+
 .page-title {
     font-size: 2.5rem;
     font-weight: 800;

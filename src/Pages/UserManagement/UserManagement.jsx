@@ -3,6 +3,7 @@ import './UserManagement.css';
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js';
 import users from './UserItems.json';
+import Hero from '../../Components/Hero/Hero';
 
 const UserManagement = () => {
   useEffect(() => {
@@ -11,17 +12,17 @@ const UserManagement = () => {
     M.updateTextFields();
   }, []); // The empty array ensures this effect runs only once after the initial render
 
-  
+  const heroData = {
+        name: "User Management",
+        tagline: "Manage all user accounts and profiles on your platform"
+    };
 
   return (
     <div className="main-wrapper">
       <div className="container-wrapper">
         <div className="row">
           {/* Page Header */}
-          <div className="hero-section center">
-            <h1 className="page-title">User Management</h1>
-            <p className="page-subtitle">Manage all user accounts and profiles on your platform.</p>
-          </div>
+         <Hero {...heroData} />
           {/* User Search and Filters */}
           <div className="col s12 no-padding">
             <div className="profile-section">

@@ -1,0 +1,26 @@
+/* Responsive adjustments for smaller screens */
+        @media (max-width: 600px) {
+            .profile-card {
+                height: 280px; /* Adjusted fixed height for mobile */
+                padding: 1rem;
+            }
+            .profile-card-img {
+                width: 90px;
+                height: 90px;
+                margin-bottom: 0.75rem;
+            }
+            .profile-card-name {
+                font-size: 1.3rem;
+            }
+            .profile-card-tagline-item {
+                font-size: 0.85rem;
+            }
+            .profile-card-info-item {
+                font-size: 0.7rem;
+                padding: 0.2rem 0.6rem;
+            }
+            .view-profile-btn {
+                padding: 0.5rem 1.2rem; /* Adjusted for mobile */
+                font-size: 0.9rem;
+            }
+        }

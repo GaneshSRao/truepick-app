@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './ProfileForm.css';
+import Hero from '../../Components/Hero/Hero';
 
 const ProfileForm = () => {
     useEffect(() => {
@@ -21,16 +22,17 @@ const ProfileForm = () => {
         }
     }, []);
 
+    const heroData = {
+        name: "Create your Profile",
+        tagline: "Let's get to know you better!"
+    };
+
     return (
         <div className="main-wrapper">
             <div className="container-wrapper">
                 <form action="#" method="POST" encType="multipart/form-data">
                     <div className="row">
-                        <div className="hero-section center">
-                            <h1 className="profile-name-display">Create your Profile</h1>
-                            <p className="profile-tagline-display">Let's get to know you better!</p>
-                        </div>
-
+                    <Hero {...heroData} />
                         <div className="profile-section">
                             <h2 className="section-title">Basic & Contact Information</h2>
                             <div className="row">

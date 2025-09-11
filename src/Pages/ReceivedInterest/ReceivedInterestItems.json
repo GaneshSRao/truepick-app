@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Kavita Shah",
+    "tagline": [
+      "Software Developer",
+      "Never Married",
+      "Ahmedabad"
+    ],
+    "info": [
+      "26 Yrs",
+      "Hindu",
+      "Shah",
+      "5'5\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=K2"
+  },
+  {
+    "name": "Anil Soni",
+    "tagline": [
+      "Teacher",
+      "Divorced",
+      "Bhopal"
+    ],
+    "info": [
+      "38 Yrs",
+      "Hindu",
+      "Soni",
+      "5'8\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=A3"
+  },
+  {
+    "name": "Lata Agarwal",
+    "tagline": [
+      "Business Analyst",
+      "Never Married",
+      "Noida"
+    ],
+    "info": [
+      "29 Yrs",
+      "Hindu",
+      "Agarwal",
+      "5'3\""
+    ],
+    "imgSrc": "https://placehold.co/100x100/764ba2/ffffff?text=L1"
+  }
+]
