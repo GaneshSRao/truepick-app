@@ -1,0 +1,93 @@
+.plan-card {
+    background-color: #f8f9fa;
+    border-radius: 0.75rem;
+    border: 1px solid #e2e8f0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+  .plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  .current-plan-tick {
+    position: absolute;
+    top: -15px; /* Adjust to position above the card */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #48bb78;
+    color: white;
+    font-size: 1.5rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    z-index: 10;
+  }
+  .plan-card.is-current {
+    border-color: #48bb78;
+    box-shadow: 0 8px 16px rgba(72, 187, 120, 0.2);
+  }
+  .plan-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4a5568;
+    margin-bottom: 1rem;
+  }
+  .plan-price {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+  .plan-period {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #718096;
+    margin-bottom: 2rem;
+  }
+  .plan-features {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    text-align: left;
+  }
+  .plan-features li {
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .plan-features li .icon {
+    color: #48bb78;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  .plan-card .primary-action-btn {
+    width: 100%;
+    margin-top: auto; /* Pushes the button to the bottom */
+    background-color: #667eea;
+    color: #ffffff;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border: none;
+    cursor: pointer;
+  }
+
+  .plan-card .primary-action-btn:hover {
+    background-color: #764ba2;
+  }

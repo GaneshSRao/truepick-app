@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import plans from './MembershipItems.json'; // Import the JSON data
 import './Membership.css'; // Import the CSS file
 import Hero from '../../Components/Hero/Hero';
+import MembershipPlanCard from '../../Components/MembershipPlanCard/MembershipPlanCard';
 
 const mockUserData = {
   currentPlan: 'Gold',
@@ -13,26 +14,7 @@ const heroData = {
         tagline: "Your Current Plan:" +  mockUserData.currentPlan + "| Expires on: "+ new Date(mockUserData.endDate).toLocaleDateString()
     };
 
-const PlanCard = ({ plan, isCurrent }) => (
-  <div className={`plan-card ${isCurrent ? 'is-current' : ''}`}>
-    {isCurrent && <div className="current-plan-tick">✓</div>}
-    <h3 className="plan-title">{plan.name}</h3>
-    <div className="plan-price">{plan.price}</div>
-    <div className="plan-period">{plan.period}</div>
-    <ul className="plan-features">
-      {plan.features.map((feature, index) => (
-        <li key={index}>
-          <span className="icon">✓</span> {feature}
-        </li>
-      ))}
-    </ul>
-    <button className="primary-action-btn">
-      Choose Plan
-    </button>
-  </div>
-);
-
-const App = () => {
+const Membership = () => {
   const [userData, setUserData] = useState(null);
 
   useEffect(() => {
@@ -50,7 +32,7 @@ const App = () => {
               <h2 className="section-title">Pricing</h2>
               <div className="plan-grid">
                 {plans.map((plan) => (
-                  <PlanCard key={plan.id} plan={plan} isCurrent={userData?.currentPlan === plan.name} />
+                  <MembershipPlanCard key={plan.id} plan={plan} isCurrent={userData?.currentPlan === plan.name} />
                 ))}
               </div>
             </div>
@@ -61,4 +43,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Membership;

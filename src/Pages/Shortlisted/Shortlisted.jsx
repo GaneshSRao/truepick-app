@@ -17,7 +17,9 @@ const Shortlisted = () => {
             <Hero {...heroData} />
 
             {ShortlistedItems.map((profile, index) => (
-            <ProfileCard key={index} profile={profile} showViewProfileButton={true} />
+            <div className="col s12 m6 l4">
+                <ProfileCard key={index} profile={profile} showViewProfileButton={true} />
+            </div>
             ))}
         </div>
         </div>

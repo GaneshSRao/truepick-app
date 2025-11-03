@@ -48,6 +48,13 @@
         "type": "link"
       },
       {
+        "id": "#dream",
+        "label": "Dream Profile Builder",
+        "icon": "assistant",
+        "path": "dream",
+        "type": "link"
+      },
+      {
         "id": "#profile",
         "label": "My Profile",
         "icon": "account_circle",

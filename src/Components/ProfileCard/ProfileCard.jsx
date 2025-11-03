@@ -1,9 +1,8 @@
 import './ProfileCard.css';
 
-const ProfileCard = ({ profile, showViewProfileButton, showAcceptButton, showRejectButton }) => {
+const ProfileCard = ({ profile, showViewProfileButton, showAcceptButton, showRejectButton, dark }) => {
   return (
-    <div className="col s12 m6 l4">
-      <div className="profile-card">
+      <div className = {dark? "profile-card-dark" : "profile-card"}>
         <img src={profile.imgSrc} alt="Profile Picture" className="profile-card-img" />
         <div className="profile-text-content">
           <h2 className="profile-card-name">{profile.name}</h2>
@@ -28,7 +27,6 @@ const ProfileCard = ({ profile, showViewProfileButton, showAcceptButton, showRej
           )}
         </div>
       </div>
-    </div>
   );
 };
 

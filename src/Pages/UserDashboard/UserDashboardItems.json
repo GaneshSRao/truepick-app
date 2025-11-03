@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "visibility",
+        "value": "125",
+        "label": "Profile Views"
+    },
+    {
+        "icon": "mail_outline",
+        "value": "34",
+        "label": "Interests Received"
+    },
+    {
+        "icon": "send",
+        "value": "48",
+        "label": "Interests Sent"
+    },
+    {
+        "icon": "favorite",
+        "value": "12",
+        "label": "Matches"
+    }
+]

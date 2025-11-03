@@ -1,6 +1,8 @@
 import React from 'react';
 import './AdminDashboard.css'; // Assuming you save the CSS in this file
 import Hero from '../../Components/Hero/Hero';
+import MetricCard from '../../Components/MetricCard/MetricCard';
+import AdminDashboardItems from './AdminDashboardItems.json';
 
 const AdminDashboard = () => {
     const heroData = {
@@ -19,34 +21,10 @@ const AdminDashboard = () => {
                     {/* <div className="col s12">
                         <h2 className="section-title">Key Metrics</h2>
                     </div> */}
-                    <div className="col s12 m6 l3">
-                        <div className="profile-section metric-card">
-                            <i className="material-icons icon-large">group</i>
-                            <span className="metric-value">12,345</span>
-                            <span className="metric-label">Total Users</span>
-                        </div>
-                    </div>
-                    <div className="col s12 m6 l3">
-                        <div className="profile-section metric-card">
-                            <i className="material-icons icon-large">person_add</i>
-                            <span className="metric-value">250</span>
-                            <span className="metric-label">New Registrations (Last 7 Days)</span>
-                        </div>
-                    </div>
-                    <div className="col s12 m6 l3">
-                        <div className="profile-section metric-card">
-                            <i className="material-icons icon-large">favorite</i>
-                            <span className="metric-value">876</span>
-                            <span className="metric-label">Matches Made (Total)</span>
-                        </div>
-                    </div>
-                    <div className="col s12 m6 l3">
-                        <div className="profile-section metric-card">
-                            <i className="material-icons icon-large">how_to_reg</i>
-                            <span className="metric-value">980</span>
-                            <span className="metric-label">Active Profiles</span>
-                        </div>
-                    </div>
+
+                    {AdminDashboardItems.map((metric, index) => (
+                    <MetricCard key={index} metricData={metric} />
+                    ))}
 
                     {/* Recent Activities */}
                     <div className="col s12 m6">

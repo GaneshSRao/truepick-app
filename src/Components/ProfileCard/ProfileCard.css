@@ -32,6 +32,19 @@
     margin-bottom: 1rem;
     flex-shrink: 0; /* Prevent image from shrinking */
 }
+.profile-card-dark{
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text within the card */
+    box-sizing: border-box; /* Include padding in height calculation */
+    overflow: hidden; /* Clip content if it exceeds fixed height */
+}
 .profile-text-content { /* Container for text content */
     width: 100%; /* Take full width of the card */
     box-sizing: border-box; /* Include padding in height calculation */

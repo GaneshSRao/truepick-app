@@ -91,24 +91,3 @@
 .primary-action-btn:hover {
   background-color: #764ba2;
 }
-.current-plan-tick {
-    position: absolute;
-    top: -15px; /* Adjust to position above the card */
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #48bb78;
-    color: white;
-    font-size: 1.5rem;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid white;
-    z-index: 10;
-  }
-  .plan-card.is-current {
-    border-color: #48bb78;
-    box-shadow: 0 8px 16px rgba(72, 187, 120, 0.2);
-  }

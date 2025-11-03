@@ -17,7 +17,9 @@ const ReceivedInterest = () => {
             <Hero {...heroData} />
 
             {ReceivedInterestItems.map((profile, index) => (
-            <ProfileCard key={index} profile={profile} showViewProfileButton={true} showAcceptButton={true} showRejectButton={true}/>
+            <div className="col s12 m6 l4">
+                <ProfileCard key={index} profile={profile} showViewProfileButton={true} showAcceptButton={true} showRejectButton={true}/>
+            </div>
             ))}
         </div>
         </div>

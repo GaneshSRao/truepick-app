@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "group",
+        "value": "12,345",
+        "label": "Total Users"
+    },
+    {
+        "icon": "person_add",
+        "value": "250",
+        "label": "New Registrations (Last 7 Days)"
+    },
+    {
+        "icon": "favorite",
+        "value": "876",
+        "label": "Matches Made (Total)"
+    },
+    {
+        "icon": "how_to_reg",
+        "value": "980",
+        "label": "Active Profiles"
+    }
+]
